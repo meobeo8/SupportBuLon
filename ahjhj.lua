@@ -13,10 +13,6 @@ window:Button("FlyBuLon", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TranVanBao1411/SupportBuLon/main/FlyBuLon"))()
 end)
 
-window:Button("Dex Vippro", function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DexPlusPlus/refs/heads/master/out.lua"))()
-end)
-
 window:Button("RemoteSpy", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/SimpleSpy/refs/heads/main/Mobile.lua"))()
 end)
