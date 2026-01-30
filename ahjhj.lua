@@ -1,16 +1,8 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/turtle"))()
 local window = library:Window("j")
 
-window:Button("CopyCframe", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/SupportBuLon/main/CoppyCframe"))()
-end)
-
 window:Button("Infinite Yield", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-end)
-
-window:Button("FlyBuLon", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/TranVanBao1411/SupportBuLon/main/FlyBuLon"))()
 end)
 
 window:Button("RemoteSpy", function()
@@ -27,4 +19,8 @@ window:Button("RemoteSpy 1", function()
 
     webImport("init")
     webImport("ui/main")
+end)
+
+window:Button("RemoteSpy 2", function()
+    loadstring(game:HttpGet("https://github.com/notpoiu/cobalt/releases/latest/download/Cobalt.luau"))()
 end)
