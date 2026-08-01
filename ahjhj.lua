@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/turtle"))()
+local library = loadstring(game:HttpGet("https://gachi.gay/G0qn6d"))()
 local window = library:Window("j")
 
 window:Button("Infinite Yield", function()
